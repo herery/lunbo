@@ -1,0 +1,30 @@
+	* { margin: 0; padding: 0; }
+	.lunbo {
+		position: relative; margin: auto;
+		overflow: hidden;
+	}
+	.lunbo-container {
+		position: absolute; 
+	}
+	.lunbo-container img{
+		float: left; object-fit: cover;
+	}
+
+	.lunbo-btn {
+		cursor: pointer;
+	}
+	.lunbo-turn {
+		width: 50px; height: 50px; position: absolute; top: 0; bottom: 0; margin: auto 0; color: darkslategray; border-radius: 25px; font-size: 35px; text-align: center; z-index: 1; background: rgba(0, 0, 0, 0.2);
+	}
+	.lunbo-left { left: 1%; }
+	.lunbo-right { right: 1%; }
+
+	.lunbo-list {
+		position: absolute; margin: 0 auto; left: 0; right: 0; bottom: 4%; text-align: center;
+	}
+	.lunbo-list-li {
+		list-style: none; display: inline-block; z-index: 1; width: 25px; height: 25px; border-radius: 12px; background: rgba(0, 0, 0, 0.2); color: darkslategray; text-align: center; margin: 0 2px;
+	}
+	.lunbo-list .lunbo-list-in {
+		color: red; background: black;
+	}
