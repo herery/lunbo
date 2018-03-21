@@ -72,10 +72,10 @@ function initLunbo (tagId, params) {
 	clearInterval(timer);
 	var timer = setInterval(nextClick, speed);
 
-	wrap.onmouseover = function(){
+	lunbo.onmouseover = function(){
 	    clearInterval(timer);
 	};
-	wrap.onmouseout = function(){
+	lunbo.onmouseout = function(){
 	    clearInterval(timer);
 	    timer = setInterval(nextClick, speed);
 	};
